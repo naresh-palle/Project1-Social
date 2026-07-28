@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Solutions — PALRAM AI</title>
+<meta name="description" content="PALRAM AI builds AI agents, workflow automation, custom software, web and mobile apps for startups, SMBs, and enterprises.">
+<link rel="icon" type="image/png" href="assets/img/favicon-32.png">
+<link rel="apple-touch-icon" href="assets/img/favicon-64.png">
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body data-theme="dark">
+<div class="bg-glow"><span class="g1"></span><span class="g2"></span><span class="g3"></span></div>
+<header>
+  <nav class="wrap">
+    <a href="index.html" class="logo">
+      <img class="logo-dark-img" src="assets/img/logo-dark.png" alt="PALRAM AI">
+      <img class="logo-light-img" src="assets/img/logo-light.png" alt="PALRAM AI">
+    </a>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="ai-solutions.html" class="active">AI Solutions</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="industries.html">Industries</a>
+      <a href="about.html">About</a>
+      <a href="pricing.html">Pricing</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <div class="nav-actions">
+      <div class="icon-toggle" onclick="toggleTheme()" id="themeIcon">&#9789;</div>
+      <a href="contact.html" class="btn btn-primary">Book Free Consultation</a>
+      <div class="burger" onclick="toggleMobile()">&#9776;</div>
+    </div>
+  </nav>
+</header>
+
+<div id="mobileMenu" style="display:none; position:fixed; inset:0; background:var(--bg); z-index:99; padding:100px 32px 32px;">
+  <div style="display:flex; flex-direction:column; gap:24px; font-size:20px;">
+    <a href="index.html" onclick="toggleMobile()">Home</a>
+    <a href="services.html" onclick="toggleMobile()">Services</a>
+    <a href="ai-solutions.html" onclick="toggleMobile()">AI Solutions</a>
+    <a href="portfolio.html" onclick="toggleMobile()">Portfolio</a>
+    <a href="industries.html" onclick="toggleMobile()">Industries</a>
+    <a href="about.html" onclick="toggleMobile()">About</a>
+    <a href="pricing.html" onclick="toggleMobile()">Pricing</a>
+    <a href="contact.html" onclick="toggleMobile()">Contact</a>
+    <a href="contact.html" class="btn btn-primary" style="justify-content:center" onclick="toggleMobile()">Book Free Consultation</a>
+  </div>
+  <div style="position:absolute; top:26px; right:32px; font-size:28px; cursor:pointer;" onclick="toggleMobile()">&#10005;</div>
+</div>
+
+<section class="page-hero">
+  <div class="wrap">
+    <div class="eyebrow reveal in"><span class="dot"></span> AI Solutions</div>
+    <h1 class="reveal in">AI built on the models and tools that fit your data</h1>
+    <p class="reveal in">We work across every major model and framework, choosing the stack that fits your use case &mdash; not the other way around.</p>
+  </div>
+</section>
+
+<section class="section" style="padding-top:0;">
+  <div class="wrap">
+    <div class="grid grid-2">
+      <div class="card reveal">
+        <div class="icon">&#129504;</div>
+        <h3>AI Development</h3>
+        <p>Custom AI systems &mdash; from retrieval-augmented search over your own documents to fully custom LLM applications.</p>
+        <div class="tag-row"><span class="tag">LLMs</span><span class="tag">RAG Systems</span><span class="tag">Chatbots</span><span class="tag">AI Assistants</span><span class="tag">Knowledge Bases</span><span class="tag">AI Search</span></div>
+      </div>
+      <div class="card reveal">
+        <div class="icon">&#129302;</div>
+        <h3>AI Agents</h3>
+        <p>Autonomous agents that take real actions inside your workflows, not just answer questions.</p>
+        <div class="tag-row"><span class="tag">Customer Support</span><span class="tag">Sales</span><span class="tag">HR</span><span class="tag">Marketing</span><span class="tag">Research</span><span class="tag">Coding</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section-alt" style="padding-top:60px;">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="eyebrow"><span class="dot"></span> Tech Stack</div>
+      <h2>Models and frameworks we build on</h2>
+    </div>
+  </div>
+  <div class="marquee">
+    <div class="marquee-track" id="marqueeTrack"></div>
+  </div>
+</section>
+
+<section class="section" style="padding-top:0;">
+  <div class="wrap">
+    <div class="cta-banner reveal">
+      <h2>Have a specific AI use case in mind?</h2>
+      <p>Get a free scoping call and a rough estimate within a day.</p>
+      <a href="contact.html" class="btn btn-primary btn-lg">Book a Free Consultation</a>
+    </div>
+  </div>
+</section>
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <a href="index.html" class="logo" style="margin-bottom:14px;">
+          <img class="logo-dark-img" src="assets/img/logo-dark.png" alt="PALRAM AI">
+          <img class="logo-light-img" src="assets/img/logo-light.png" alt="PALRAM AI">
+        </a>
+        <p style="max-width:260px;">Transforming businesses with AI, automation, and modern software solutions.</p>
+        <div class="social-row">
+          <a href="#" aria-label="LinkedIn">in</a>
+          <a href="#" aria-label="GitHub">gh</a>
+          <a href="#" aria-label="Instagram">ig</a>
+          <a href="#" aria-label="YouTube">yt</a>
+        </div>
+      </div>
+      <div><h5>Company</h5><a href="about.html">About</a><a href="services.html">Services</a><a href="ai-solutions.html">AI Solutions</a><a href="#">Blog</a></div>
+      <div><h5>Solutions</h5><a href="services.html">Automation</a><a href="portfolio.html">Portfolio</a><a href="industries.html">Industries</a><a href="pricing.html">Pricing</a></div>
+      <div><h5>Legal</h5><a href="#">Privacy Policy</a><a href="#">Terms</a></div>
+      <div><h5>Contact</h5><p>contact@palramai.in</p><p>palramai.in</p></div>
+    </div>
+    <div class="foot-bottom">
+      <span>&copy; 2026 PALRAM AI. All rights reserved.</span>
+      <span>Built for scale</span>
+    </div>
+  </div>
+</footer>
+
+<div class="float-stack">
+  <a class="float-btn wa" href="https://wa.me/910000000000" target="_blank" aria-label="WhatsApp">&#128172;</a>
+  <a class="float-btn mail" href="mailto:contact@palramai.in" aria-label="Email">&#9993;</a>
+</div>
+
+<div class="chat-widget">
+  <div class="chat-panel" id="chatPanel">
+    <div class="chat-head"><b>PALRAM Assistant</b><span>Typically replies in a few minutes</span></div>
+    <div class="chat-body" id="chatBody">
+      <div class="msg bot">Hi &#128075; I'm the PALRAM AI assistant. Ask me about AI agents, automation, or getting a quote.</div>
+    </div>
+    <div class="chat-input">
+      <input type="text" id="chatInput" placeholder="Type a message..." onkeypress="if(event.key==='Enter')sendChat()">
+      <button onclick="sendChat()">Send</button>
+    </div>
+  </div>
+  <div class="chat-bubble" onclick="toggleChat()"><img src="assets/img/logo-symbol.png" alt="Chat"></div>
+</div>
+
+<script src="assets/js/script.js"></script>
+</body>
+</html>
